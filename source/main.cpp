@@ -13,7 +13,7 @@ using namespace std;
 
 
 //main
-int main(int argc, char const *argv[]) {
+int main(int argc, char *argv[]) {
     if(argc < 2){
         cout << "Por favor, entrar com os argumentos corretamente." << endl;
         cout << "./tracking_system configFile.json" << endl;
@@ -31,13 +31,14 @@ int main(int argc, char const *argv[]) {
     ManangerCore mananger_core;
 
     //cria populacoes
-    mananger_core.startPopulation();
+    mananger_core.startTrackelets();
 
     //executa o brain genetico
     mananger_core.run();
 
     //sumariza informações
+    mananger_core.buildOutputEnv();
     mananger_core.generateInformation();
 
-    pthread_exit(NULL);
+    return 0;
 }
