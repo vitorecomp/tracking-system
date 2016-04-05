@@ -1,0 +1,10 @@
+Fazer um algoritmo de decisção simples
+Rodar todas para um workflow estatico
+Rodar com variação de carga
+Rodar todas com todas definção dos algortimso dinamicamente carga fixa
+Definição do algoritmo dinamicamente com carga varialvel
+
+Repetir o processo com detecção de erro
+
+BAlceamento workstealing
+

@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dataset name="MunichAutobahn01">
+    <frame number="0" file="C:/Training/MunichAutobahn01/ON0062.png" utc="2009-Oct-24 12:56:47.308000" pixel_size="0.15" x="695009" y="5.34382e+006" lat="48.2144" lon="11.6227" sunny="1">
+        <objectlist>
+            <object id="1">
+                <box xc="122.188" yc="839.844" w="31.4132" h="52.8429" />
+                <representation type="RotatedRectangle" xc="122.188" yc="839.844" w="16" h="50.375" o="108.844" />
+            </object>
+            <object id="2">
+                <box xc="249.25" yc="453.313" w="24.5067" h="39.0876" />
+                <representation type="RotatedRectangle" xc="249.25" yc="453.313" w="13.75" h="36.625" o="108.21" />
+            </object>
+            <object id="5">
+                <box xc="349.75" yc="125.813" w="21.375" h="31.437" />
+                <representation type="RotatedRectangle" xc="349.75" yc="125.813" w="12.25" h="29" o="109.864" />
+            </object>
+            <object id="6">
+                <box xc="302.594" yc="236.281" w="22.9976" h="33.3949" />
+                <representation type="RotatedRectangle" xc="302.594" yc="236.281" w="13.125" h="30.75" o="110.346" />
+            </object>
+            <object id="7">
+                <box xc="343.719" yc="243.063" w="21.8109" h="34.9774" />
+                <representation type="RotatedRectangle" xc="343.719" yc="243.063" w="11.25" h="33.125" o="109.811" />
+            </object>
+            <object id="13">
+                <box xc="423.531" yc="459.313" w="24.8467" h="32.9807" />
+                <representation type="RotatedRectangle" xc="423.531" yc="459.313" w="11.875" h="31" o="297.498" />
+            </object>
+            <object id="14">
+                <box xc="277.438" yc="841.375" w="12.8709" h="22.7532" />
+                <representation type="RotatedRectangle" xc="277.438" yc="841.375" w="11" h="21.875" o="264.983" />
+            </object>
+            <object id="15">
+                <box xc="55.375" yc="458.531" w="45.0134" h="29.2735" />
+                <representation type="RotatedRectangle" xc="55.375" yc="458.531" w="17.75" h="41.625" o="162.786" />
+            </object>
+        </objectlist>
+    </frame>
+    <frame number="1" file="C:/Training/MunichAutobahn01/ON0063.png" utc="2009-Oct-24 12:56:47.808000" pixel_size="0.15" x="695009" y="5.34382e+006" lat="48.2147" lon="11.6229" sunny="1">
+        <objectlist>
+            <object id="1">
+                <box xc="105.438" yc="886.594" w="31.4233" h="53.1866" />
+                <representation type="RotatedRectangle" xc="105.438" yc="886.594" w="15.625" h="50.875" o="109.115" />
+            </object>
+            <object id="2">
+                <box xc="235.781" yc="495.188" w="24.7876" h="38.8169" />
+                <representation type="RotatedRectangle" xc="235.781" yc="495.188" w="12.875" h="36.625" o="110.311" />
+            </object>
+            <object id="3">
+                <box xc="273.813" yc="455.063" w="22.3162" h="33.6353" />
+                <representation type="RotatedRectangle" xc="273.813" yc="455.063" w="12.5" h="31.25" o="109.731" />
+            </object>
+            <object id="4">
+                <box xc="371.188" yc="39.2188" w="23.8731" h="35.5471" />
+                <representation type="RotatedRectangle" xc="371.188" yc="39.2188" w="13.25" h="33" o="110.294" />
+            </object>
+            <object id="5">
+                <box xc="333.313" yc="168.531" w="21.8308" h="31.1969" />
+                <representation type="RotatedRectangle" xc="333.313" yc="168.531" w="12.5" h="28.625" o="110.75" />
+            </object>
+            <object id="6">
+                <box xc="289.594" yc="273.719" w="22.2461" h="33.2057" />
+                <representation type="RotatedRectangle" xc="289.594" yc="273.719" w="12.625" h="30.75" o="109.687" />
+            </object>
+            <object id="7">
+                <box xc="324.438" yc="297.875" w="22.7343" h="36.5273" />
+                <representation type="RotatedRectangle" xc="324.438" yc="297.875" w="12" h="34.5" o="109.312" />
+            </object>
+            <object id="13">
+                <box xc="429.969" yc="444.563" w="25.1894" h="33.1607" />
+                <representation type="RotatedRectangle" xc="429.969" yc="444.563" w="11.875" h="31.25" o="298.087" />
+            </object>
+            <object id="14">
+                <box xc="270.063" yc="827" w="21.6594" h="25.6172" />
+                <representation type="RotatedRectangle" xc="270.063" yc="827" w="12.25" h="22.5" o="240.845" />
+            </object>
+            <object id="15">
+                <box xc="53.0938" yc="461.438" w="44.3848" h="28.747" />
+                <representation type="RotatedRectangle" xc="53.0938" yc="461.438" w="16.625" h="41.25" o="161.682" />
+            </object>
+        </objectlist>
+    </frame>
+    <frame number="2" file="C:/Training/MunichAutobahn01/ON0064.png" utc="2009-Oct-24 12:56:48.309000" pixel_size="0.15" x="695009" y="5.34382e+006" lat="48.215" lon="11.6231" sunny="1">
+        <objectlist>
+            <object id="1">
+                <box xc="89.2188" yc="932.594" w="31.4682" h="52.1697" />
+                <representation type="RotatedRectangle" xc="89.2188" yc="932.594" w="16.125" h="49.625" o="109.09" />
+            </object>
+            <object id="2">
+                <box xc="222.031" yc="537.438" w="24.793" h="39.1011" />
+                <representation type="RotatedRectangle" xc="222.031" yc="537.438" w="13.75" h="36.625" o="108.75" />
+            </object>
+            <object id="3">
+                <box xc="253.969" yc="512.531" w="22.4339" h="32.5813" />
+                <representation type="RotatedRectangle" xc="253.969" yc="512.531" w="13.25" h="29.875" o="109.431" />
+            </object>
+            <object id="4">
+                <box xc="358.875" yc="72" w="24.7252" h="36.2622" />
+                <representation type="RotatedRectangle" xc="358.875" yc="72" w="14.375" h="33.375" o="109.573" />
+            </object>
+            <object id="5">
+                <box xc="317.594" yc="210.094" w="21.7453" h="33.4525" />
+                <representation type="RotatedRectangle" xc="317.594" yc="210.094" w="12.375" h="31.125" o="108.8" />
+            </object>
+            <object id="6">
+                <box xc="276.656" yc="310" w="22.8406" h="33.4219" />
+                <representation type="RotatedRectangle" xc="276.656" yc="310" w="12.5" h="31" o="111.144" />
+            </object>
+            <object id="13">
+                <box xc="439.438" yc="425.906" w="25.3239" h="34.4717" />
+                <representation type="RotatedRectangle" xc="439.438" yc="425.906" w="12.5" h="32.25" o="295.882" />
+            </object>
+            <object id="14">
+                <box xc="260.125" yc="813.375" w="23.7893" h="25.3103" />
+                <representation type="RotatedRectangle" xc="260.125" yc="813.375" w="13.25" h="21.75" o="232.269" />
+            </object>
+            <object id="15">
+                <box xc="51.5938" yc="463.406" w="44.067" h="28.407" />
+                <representation type="RotatedRectangle" xc="51.5938" yc="463.406" w="16.375" h="41" o="161.723" />
+            </object>
+        </objectlist>
+    </frame>
+    <frame number="3" file="C:/Training/MunichAutobahn01/ON0065.png" utc="2009-Oct-24 12:56:48.809000" pixel_size="0.15" x="695009" y="5.34382e+006" lat="48.2152" lon="11.6232" sunny="1">
+        <objectlist>
+            <object id="2">
+                <box xc="208.188" yc="581.094" w="25.631" h="40.6877" />
+                <representation type="RotatedRectangle" xc="208.188" yc="581.094" w="14.75" h="38" o="107.747" />
+            </object>
+            <object id="3">
+                <box xc="235.188" yc="571.063" w="21.1707" h="32.1388" />
+                <representation type="RotatedRectangle" xc="235.188" yc="571.063" w="12.375" h="29.75" o="108.489" />
+            </object>
+            <object id="4">
+                <box xc="347.75" yc="104.281" w="22.6078" h="33.7629" />
+                <representation type="RotatedRectangle" xc="347.75" yc="104.281" w="12.5" h="31.375" o="110.298" />
+            </object>
+            <object id="5">
+                <box xc="302.625" yc="251.844" w="22.0501" h="32.7963" />
+                <representation type="RotatedRectangle" xc="302.625" yc="251.844" w="12.875" h="30.25" o="109.066" />
+            </object>
+            <object id="6">
+                <box xc="266.125" yc="345.875" w="21.3487" h="31.6012" />
+                <representation type="RotatedRectangle" xc="266.125" yc="345.875" w="13" h="29" o="108.057" />
+            </object>
+            <object id="8">
+                <box xc="408.563" yc="46.7813" w="20.9501" h="30.9113" />
+                <representation type="RotatedRectangle" xc="408.563" yc="46.7813" w="12.625" h="28.375" o="108.435" />
+            </object>
+            <object id="14">
+                <box xc="248.25" yc="803.094" w="25.5892" h="25.1197" />
+                <representation type="RotatedRectangle" xc="248.25" yc="803.094" w="12.75" h="23.125" o="223.166" />
+            </object>
+            <object id="15">
+                <box xc="50.4063" yc="466.5" w="43.5059" h="27.6152" />
+                <representation type="RotatedRectangle" xc="50.4063" yc="466.5" w="16.25" h="40.5" o="162.604" />
+            </object>
+            <object id="16">
+                <box xc="277.938" yc="961.438" w="23.1506" h="35.6727" />
+                <representation type="RotatedRectangle" xc="277.938" yc="961.438" w="13" h="33.25" o="289.071" />
+            </object>
+        </objectlist>
+    </frame>
+    <frame number="4" file="C:/Training/MunichAutobahn01/ON0066.png" utc="2009-Oct-24 12:56:49.309000" pixel_size="0.15" x="695009" y="5.34382e+006" lat="48.2155" lon="11.6234" sunny="1">
+        <objectlist>
+            <object id="2">
+                <box xc="193.094" yc="623.156" w="25.5825" h="38.8529" />
+                <representation type="RotatedRectangle" xc="193.094" yc="623.156" w="14" h="36.25" o="110.056" />
+            </object>
+            <object id="3">
+                <box xc="215.188" yc="628.438" w="22.179" h="32.4963" />
+                <representation type="RotatedRectangle" xc="215.188" yc="628.438" w="13" h="29.875" o="109.385" />
+            </object>
+            <object id="4">
+                <box xc="335.063" yc="138.281" w="24.5382" h="36.5362" />
+                <representation type="RotatedRectangle" xc="335.063" yc="138.281" w="12.75" h="34.25" o="111.759" />
+            </object>
+            <object id="5">
+                <box xc="287.5" yc="290.313" w="23.1882" h="34.8267" />
+                <representation type="RotatedRectangle" xc="287.5" yc="290.313" w="12.875" h="32.375" o="110.037" />
+            </object>
+            <object id="7">
+                <box xc="265.969" yc="469.125" w="22.9291" h="35.7106" />
+                <representation type="RotatedRectangle" xc="265.969" yc="469.125" w="12.375" h="33.5" o="109.67" />
+            </object>
+            <object id="8">
+                <box xc="392.344" yc="95.9063" w="21.3444" h="31.0944" />
+                <representation type="RotatedRectangle" xc="392.344" yc="95.9063" w="11.875" h="28.75" o="110.886" />
+            </object>
+            <object id="9">
+                <box xc="382.813" yc="17.4375" w="23.6347" h="32.4134" />
+                <representation type="RotatedRectangle" xc="382.813" yc="17.4375" w="13.5" h="29.5" o="112.172" />
+            </object>
+            <object id="14">
+                <box xc="231.969" yc="794.25" w="26.7456" h="22.8518" />
+                <representation type="RotatedRectangle" xc="231.969" yc="794.25" w="13" h="23.375" o="209.61" />
+            </object>
+            <object id="15">
+                <box xc="48.5" yc="468.281" w="43.814" h="27.927" />
+                <representation type="RotatedRectangle" xc="48.5" yc="468.281" w="15.125" h="41.125" o="160.599" />
+            </object>
+            <object id="16">
+                <box xc="293.719" yc="911.063" w="24.1768" h="35.4065" />
+                <representation type="RotatedRectangle" xc="293.719" yc="911.063" w="13.5" h="32.75" o="290.638" />
+            </object>
+        </objectlist>
+    </frame>
+    <frame number="5" file="C:/Training/MunichAutobahn01/ON0067.png" utc="2009-Oct-24 12:56:49.809000" pixel_size="0.15" x="695009" y="5.34382e+006" lat="48.2158" lon="11.6236" sunny="1">
+        <objectlist>
+            <object id="2">
+                <box xc="178.219" yc="666.5" w="24.7733" h="38.5954" />
+                <representation type="RotatedRectangle" xc="178.219" yc="666.5" w="13.25" h="36.25" o="109.853" />
+            </object>
+            <object id="3">
+                <box xc="195.844" yc="687.75" w="21.4709" h="31.3635" />
+                <representation type="RotatedRectangle" xc="195.844" yc="687.75" w="12.375" h="28.875" o="109.916" />
+            </object>
+            <object id="4">
+                <box xc="323.188" yc="172.563" w="24.6326" h="37.7314" />
+                <representation type="RotatedRectangle" xc="323.188" yc="172.563" w="13.125" h="35.375" o="110.4" />
+            </object>
+            <object id="5">
+                <box xc="273.094" yc="330.313" w="22.3912" h="32.8307" />
+                <representation type="RotatedRectangle" xc="273.094" yc="330.313" w="13.375" h="30.125" o="108.851" />
+            </object>
+            <object id="7">
+                <box xc="245.344" yc="527.563" w="23.7268" h="37.0466" />
+                <representation type="RotatedRectangle" xc="245.344" yc="527.563" w="12.5" h="34.875" o="110.106" />
+            </object>
+            <object id="8">
+                <box xc="376.125" yc="147.219" w="23.6405" h="34.6327" />
+                <representation type="RotatedRectangle" xc="376.125" yc="147.219" w="12.625" h="32.25" o="111.668" />
+            </object>
+            <object id="9">
+                <box xc="370.281" yc="51.625" w="23.7251" h="31.5859" />
+                <representation type="RotatedRectangle" xc="370.281" yc="51.625" w="13.375" h="28.625" o="113.624" />
+            </object>
+            <object id="10">
+                <box xc="403.531" yc="45.7813" w="22.1843" h="30.8631" />
+                <representation type="RotatedRectangle" xc="403.531" yc="45.7813" w="13.25" h="28" o="110.414" />
+            </object>
+            <object id="14">
+                <box xc="215.094" yc="788.406" w="25.9192" h="20.7933" />
+                <representation type="RotatedRectangle" xc="215.094" yc="788.406" w="12.625" h="22.75" o="204.024" />
+            </object>
+            <object id="15">
+                <box xc="47.9688" yc="471.313" w="43.8326" h="28.6858" />
+                <representation type="RotatedRectangle" xc="47.9688" yc="471.313" w="15.875" h="40.875" o="160.367" />
+            </object>
+            <object id="16">
+                <box xc="311.094" yc="861.063" w="23.2352" h="36.1468" />
+                <representation type="RotatedRectangle" xc="311.094" yc="861.063" w="12.625" h="33.875" o="289.555" />
+            </object>
+        </objectlist>
+    </frame>
+    <frame number="6" file="C:/Training/MunichAutobahn01/ON0068.png" utc="2009-Oct-24 12:56:50.308000" pixel_size="0.15" x="695009" y="5.34382e+006" lat="48.2161" lon="11.6238" sunny="1">
+        <objectlist>
+            <object id="2">
+                <box xc="163.031" yc="709.25" w="25.8327" h="38.1857" />
+                <representation type="RotatedRectangle" xc="163.031" yc="709.25" w="13.75" h="35.625" o="111.465" />
+            </object>
+            <object id="4">
+                <box xc="311.281" yc="205.75" w="22.9248" h="36.1795" />
+                <representation type="RotatedRectangle" xc="311.281" yc="205.75" w="12.375" h="34" o="109.316" />
+            </object>
+            <object id="7">
+                <box xc="225.313" yc="581.781" w="22.28" h="35.7778" />
+                <representation type="RotatedRectangle" xc="225.313" yc="581.781" w="11.875" h="33.75" o="109.131" />
+            </object>
+            <object id="8">
+                <box xc="356.531" yc="203.219" w="20.134" h="29.4999" />
+                <representation type="RotatedRectangle" xc="356.531" yc="203.219" w="11" h="27.375" o="111.144" />
+            </object>
+            <object id="9">
+                <box xc="356.938" yc="83.4375" w="22.1919" h="30.1176" />
+                <representation type="RotatedRectangle" xc="356.938" yc="83.4375" w="12" h="27.625" o="113.981" />
+            </object>
+            <object id="10">
+                <box xc="386.469" yc="94.9375" w="22.1516" h="32.74" />
+                <representation type="RotatedRectangle" xc="386.469" yc="94.9375" w="12.625" h="30.25" o="109.862" />
+            </object>
+            <object id="14">
+                <box xc="199.969" yc="781.75" w="26.5955" h="20.9974" />
+                <representation type="RotatedRectangle" xc="199.969" yc="781.75" w="13.875" h="23.25" o="200.024" />
+            </object>
+            <object id="15">
+                <box xc="47.2188" yc="472.969" w="43.2634" h="27.7487" />
+                <representation type="RotatedRectangle" xc="47.2188" yc="472.969" w="15.25" h="40.5" o="160.752" />
+            </object>
+            <object id="16">
+                <box xc="328.563" yc="810.469" w="23.7106" h="34.5637" />
+                <representation type="RotatedRectangle" xc="328.563" yc="810.469" w="13.875" h="31.75" o="289.575" />
+            </object>
+        </objectlist>
+    </frame>
+    <frame number="7" file="C:/Training/MunichAutobahn01/ON0069.png" utc="2009-Oct-24 12:56:50.808000" pixel_size="0.15" x="695009" y="5.34382e+006" lat="48.2164" lon="11.6239" sunny="1">
+        <objectlist>
+            <object id="4">
+                <box xc="299.125" yc="239.469" w="23.0673" h="35.9003" />
+                <representation type="RotatedRectangle" xc="299.125" yc="239.469" w="13" h="33.5" o="108.727" />
+            </object>
+            <object id="6">
+                <box xc="217.031" yc="484.375" w="21.9888" h="32.8186" />
+                <representation type="RotatedRectangle" xc="217.031" yc="484.375" w="13" h="30.25" o="108.645" />
+            </object>
+            <object id="7">
+                <box xc="204.188" yc="635.844" w="23.6844" h="35.4722" />
+                <representation type="RotatedRectangle" xc="204.188" yc="635.844" w="12.375" h="33.25" o="111.466" />
+            </object>
+            <object id="8">
+                <box xc="337.594" yc="258.313" w="19.9096" h="28.5612" />
+                <representation type="RotatedRectangle" xc="337.594" yc="258.313" w="11.75" h="26.125" o="109.813" />
+            </object>
+            <object id="9">
+                <box xc="344.375" yc="115.719" w="21.2429" h="29.4871" />
+                <representation type="RotatedRectangle" xc="344.375" yc="115.719" w="11.875" h="27" o="112.33" />
+            </object>
+            <object id="10">
+                <box xc="366.906" yc="145.688" w="23.0775" h="32.9789" />
+                <representation type="RotatedRectangle" xc="366.906" yc="145.688" w="12.875" h="30.375" o="111.417" />
+            </object>
+            <object id="13">
+                <box xc="483.063" yc="319.531" w="23.9919" h="34.9266" />
+                <representation type="RotatedRectangle" xc="483.063" yc="319.531" w="12.5" h="32.625" o="292.406" />
+            </object>
+            <object id="14">
+                <box xc="183.531" yc="777.906" w="25.7545" h="19.372" />
+                <representation type="RotatedRectangle" xc="183.531" yc="777.906" w="13" h="22.875" o="197.805" />
+            </object>
+            <object id="15">
+                <box xc="45.0625" yc="475.75" w="43.2393" h="27.1796" />
+                <representation type="RotatedRectangle" xc="45.0625" yc="475.75" w="15.25" h="40.5" o="161.727" />
+            </object>
+            <object id="16">
+                <box xc="344.656" yc="759.688" w="24.5218" h="36.3417" />
+                <representation type="RotatedRectangle" xc="344.656" yc="759.688" w="13.875" h="33.625" o="289.964" />
+            </object>
+        </objectlist>
+    </frame>
+    <frame number="8" file="C:/Training/MunichAutobahn01/ON0070.png" utc="2009-Oct-24 12:56:51.308000" pixel_size="0.15" x="695009" y="5.34382e+006" lat="48.2167" lon="11.6241" sunny="1">
+        <objectlist>
+            <object id="3">
+                <box xc="136.969" yc="861.031" w="22.3907" h="31.665" />
+                <representation type="RotatedRectangle" xc="136.969" yc="861.031" w="13.75" h="28.75" o="109.075" />
+            </object>
+            <object id="4">
+                <box xc="287.188" yc="273.344" w="23.9746" h="35.5309" />
+                <representation type="RotatedRectangle" xc="287.188" yc="273.344" w="14" h="32.75" o="109.163" />
+            </object>
+            <object id="6">
+                <box xc="205.156" yc="517.625" w="22.4999" h="32.1112" />
+                <representation type="RotatedRectangle" xc="205.156" yc="517.625" w="12.75" h="29.5" o="111.062" />
+            </object>
+            <object id="7">
+                <box xc="184.031" yc="689.156" w="24.1772" h="36.4483" />
+                <representation type="RotatedRectangle" xc="184.031" yc="689.156" w="12.5" h="34.25" o="111.488" />
+            </object>
+            <object id="8">
+                <box xc="318.094" yc="315.406" w="20.8798" h="29.6061" />
+                <representation type="RotatedRectangle" xc="318.094" yc="315.406" w="12.375" h="27" o="110.045" />
+            </object>
+            <object id="9">
+                <box xc="331.156" yc="148.938" w="20.623" h="29.8697" />
+                <representation type="RotatedRectangle" xc="331.156" yc="148.938" w="11.375" h="27.625" o="111.274" />
+            </object>
+            <object id="10">
+                <box xc="346.844" yc="199.938" w="21.4104" h="31.2445" />
+                <representation type="RotatedRectangle" xc="346.844" yc="199.938" w="12.375" h="28.75" o="109.871" />
+            </object>
+            <object id="13">
+                <box xc="492.781" yc="289.875" w="21.4064" h="33.1339" />
+                <representation type="RotatedRectangle" xc="492.781" yc="289.875" w="12.125" h="30.875" o="288.751" />
+            </object>
+            <object id="14">
+                <box xc="167.563" yc="773.875" w="27.298" h="20.7262" />
+                <representation type="RotatedRectangle" xc="167.563" yc="773.875" w="13.125" h="24.25" o="200.31" />
+            </object>
+            <object id="15">
+                <box xc="43.75" yc="478.188" w="43.2191" h="26.426" />
+                <representation type="RotatedRectangle" xc="43.75" yc="478.188" w="14.875" h="40.625" o="162.461" />
+            </object>
+            <object id="16">
+                <box xc="362.188" yc="708.5" w="23.737" h="36.6786" />
+                <representation type="RotatedRectangle" xc="362.188" yc="708.5" w="14.125" h="34" o="287.585" />
+            </object>
+        </objectlist>
+    </frame>
+    <frame number="9" file="C:/Training/MunichAutobahn01/ON0071.png" utc="2009-Oct-24 12:56:51.808000" pixel_size="0.15" x="695009" y="5.34382e+006" lat="48.217" lon="11.6243" sunny="1">
+        <objectlist>
+            <object id="2">
+                <box xc="115.688" yc="841.281" w="25.8389" h="38.7382" />
+                <representation type="RotatedRectangle" xc="115.688" yc="841.281" w="14.75" h="35.875" o="109.42" />
+            </object>
+            <object id="3">
+                <box xc="117.375" yc="918.313" w="22.2943" h="31.6274" />
+                <representation type="RotatedRectangle" xc="117.375" yc="918.313" w="13.625" h="28.75" o="109.13" />
+            </object>
+            <object id="4">
+                <box xc="275.406" yc="307.094" w="23.3068" h="35.7209" />
+                <representation type="RotatedRectangle" xc="275.406" yc="307.094" w="12.75" h="33.375" o="109.811" />
+            </object>
+            <object id="5">
+                <box xc="220.875" yc="470.063" w="22.4232" h="31.4619" />
+                <representation type="RotatedRectangle" xc="220.875" yc="470.063" w="12.875" h="28.75" o="111.259" />
+            </object>
+            <object id="6">
+                <box xc="193.344" yc="549.063" w="22.0838" h="32.4334" />
+                <representation type="RotatedRectangle" xc="193.344" yc="549.063" w="12.375" h="30" o="110.467" />
+            </object>
+            <object id="9">
+                <box xc="319.219" yc="180.375" w="22.3573" h="31.7098" />
+                <representation type="RotatedRectangle" xc="319.219" yc="180.375" w="12.25" h="29.25" o="112.107" />
+            </object>
+            <object id="10">
+                <box xc="326.344" yc="255.969" w="21.9329" h="31.048" />
+                <representation type="RotatedRectangle" xc="326.344" yc="255.969" w="12.75" h="28.375" o="110.638" />
+            </object>
+            <object id="13">
+                <box xc="501.938" yc="261.406" w="22.4847" h="34.0268" />
+                <representation type="RotatedRectangle" xc="501.938" yc="261.406" w="12.625" h="31.625" o="289.561" />
+            </object>
+            <object id="14">
+                <box xc="153" yc="769.656" w="26.7447" h="20.8153" />
+                <representation type="RotatedRectangle" xc="153" yc="769.656" w="13.75" h="23.5" o="199.531" />
+            </object>
+            <object id="15">
+                <box xc="42.75" yc="480.813" w="42.1745" h="26.5552" />
+                <representation type="RotatedRectangle" xc="42.75" yc="480.813" w="14.875" h="39.5" o="161.648" />
+            </object>
+            <object id="16">
+                <box xc="378.344" yc="656.375" w="24.7582" h="36.8863" />
+                <representation type="RotatedRectangle" xc="378.344" yc="656.375" w="14.125" h="34.125" o="289.609" />
+            </object>
+        </objectlist>
+    </frame>
+    <frame number="10" file="C:/Training/MunichAutobahn01/ON0072.png" utc="2009-Oct-24 12:56:52.308000" pixel_size="0.15" x="695009" y="5.34382e+006" lat="48.2173" lon="11.6244" sunny="1">
+        <objectlist>
+            <object id="2">
+                <box xc="99.75" yc="886.781" w="25.3281" h="39.3107" />
+                <representation type="RotatedRectangle" xc="99.75" yc="886.781" w="14" h="36.75" o="109.24" />
+            </object>
+            <object id="4">
+                <box xc="263.75" yc="340.875" w="23.706" h="36.5453" />
+                <representation type="RotatedRectangle" xc="263.75" yc="340.875" w="12.75" h="34.25" o="110.022" />
+            </object>
+            <object id="5">
+                <box xc="208.594" yc="501.031" w="23.1033" h="35.01" />
+                <representation type="RotatedRectangle" xc="208.594" yc="501.031" w="12.375" h="32.75" o="110.593" />
+            </object>
+            <object id="6">
+                <box xc="181.063" yc="581.438" w="22.6971" h="33.113" />
+                <representation type="RotatedRectangle" xc="181.063" yc="581.438" w="12.625" h="30.625" o="110.847" />
+            </object>
+            <object id="9">
+                <box xc="307.281" yc="211.906" w="20.4124" h="29.4953" />
+                <representation type="RotatedRectangle" xc="307.281" yc="211.906" w="12.125" h="27" o="109.42" />
+            </object>
+            <object id="10">
+                <box xc="304.813" yc="313.75" w="21.501" h="31.1178" />
+                <representation type="RotatedRectangle" xc="304.813" yc="313.75" w="12.75" h="28.5" o="109.421" />
+            </object>
+            <object id="13">
+                <box xc="511.781" yc="229.469" w="20.8898" h="32.4017" />
+                <representation type="RotatedRectangle" xc="511.781" yc="229.469" w="12.125" h="30.125" o="288.113" />
+            </object>
+            <object id="14">
+                <box xc="137.188" yc="765.344" w="26.5399" h="20.1613" />
+                <representation type="RotatedRectangle" xc="137.188" yc="765.344" w="13.5" h="23.5" o="198.19" />
+            </object>
+            <object id="15">
+                <box xc="40.7188" yc="482.5" w="42.6102" h="27.2512" />
+                <representation type="RotatedRectangle" xc="40.7188" yc="482.5" w="15.5" h="39.75" o="161.606" />
+            </object>
+            <object id="16">
+                <box xc="394.156" yc="604.125" w="23.0021" h="36.3344" />
+                <representation type="RotatedRectangle" xc="394.156" yc="604.125" w="13.375" h="33.875" o="287.621" />
+            </object>
+        </objectlist>
+    </frame>
+    <frame number="11" file="C:/Training/MunichAutobahn01/ON0073.png" utc="2009-Oct-24 12:56:52.809000" pixel_size="0.15" x="695009" y="5.34382e+006" lat="48.2176" lon="11.6246" sunny="1">
+        <objectlist>
+            <object id="2">
+                <box xc="83.9375" yc="933.125" w="24.7588" h="38.2701" />
+                <representation type="RotatedRectangle" xc="83.9375" yc="933.125" w="14.125" h="35.625" o="108.617" />
+            </object>
+            <object id="5">
+                <box xc="196.906" yc="532.375" w="23.3538" h="34.3697" />
+                <representation type="RotatedRectangle" xc="196.906" yc="532.375" w="13.25" h="31.75" o="110.099" />
+            </object>
+            <object id="6">
+                <box xc="170.688" yc="609.438" w="22.0793" h="33.7034" />
+                <representation type="RotatedRectangle" xc="170.688" yc="609.438" w="12.375" h="31.375" o="109.367" />
+            </object>
+            <object id="7">
+                <box xc="125.469" yc="837.969" w="23.8936" h="36.0326" />
+                <representation type="RotatedRectangle" xc="125.469" yc="837.969" w="12.625" h="33.75" o="111.026" />
+            </object>
+            <object id="8">
+                <box xc="257.219" yc="490.875" w="19.8862" h="28.0756" />
+                <representation type="RotatedRectangle" xc="257.219" yc="490.875" w="11.625" h="25.625" o="110.567" />
+            </object>
+            <object id="9">
+                <box xc="296.219" yc="242.375" w="21.7328" h="29.3451" />
+                <representation type="RotatedRectangle" xc="296.219" yc="242.375" w="12.75" h="26.5" o="111.954" />
+            </object>
+            <object id="13">
+                <box xc="522.063" yc="195.656" w="21.4855" h="32.5939" />
+                <representation type="RotatedRectangle" xc="522.063" yc="195.656" w="12.25" h="30.25" o="289.127" />
+            </object>
+            <object id="14">
+                <box xc="122.25" yc="761.344" w="26.4234" h="20.1253" />
+                <representation type="RotatedRectangle" xc="122.25" yc="761.344" w="13.625" h="23.375" o="197.822" />
+            </object>
+            <object id="15">
+                <box xc="40.1563" yc="484.844" w="41.5914" h="26.4425" />
+                <representation type="RotatedRectangle" xc="40.1563" yc="484.844" w="15.375" h="38.75" o="162.275" />
+            </object>
+            <object id="16">
+                <box xc="410.344" yc="552.469" w="23.6722" h="36.4652" />
+                <representation type="RotatedRectangle" xc="410.344" yc="552.469" w="13.25" h="34" o="289.154" />
+            </object>
+        </objectlist>
+    </frame>
+    <frame number="12" file="C:/Training/MunichAutobahn01/ON0074.png" utc="2009-Oct-24 12:56:53.309000" pixel_size="0.15" x="695009" y="5.34382e+006" lat="48.2179" lon="11.6248" sunny="1">
+        <objectlist>
+            <object id="5">
+                <box xc="187.594" yc="560.938" w="23.7308" h="34.7676" />
+                <representation type="RotatedRectangle" xc="187.594" yc="560.938" w="13" h="32.25" o="111.083" />
+            </object>
+            <object id="6">
+                <box xc="162.5" yc="637.313" w="21.55" h="31.4341" />
+                <representation type="RotatedRectangle" xc="162.5" yc="637.313" w="12.625" h="28.875" o="109.526" />
+            </object>
+            <object id="7">
+                <box xc="107.469" yc="886.219" w="24.3084" h="36.6595" />
+                <representation type="RotatedRectangle" xc="107.469" yc="886.219" w="12.75" h="34.375" o="111.18" />
+            </object>
+            <object id="8">
+                <box xc="237.938" yc="550.906" w="19.5663" h="28.7445" />
+                <representation type="RotatedRectangle" xc="237.938" yc="550.906" w="11.25" h="26.5" o="109.813" />
+            </object>
+            <object id="9">
+                <box xc="286.969" yc="272.688" w="22.523" h="31.8298" />
+                <representation type="RotatedRectangle" xc="286.969" yc="272.688" w="13.375" h="29" o="110.091" />
+            </object>
+            <object id="13">
+                <box xc="534.594" yc="160.438" w="21.6369" h="33.6447" />
+                <representation type="RotatedRectangle" xc="534.594" yc="160.438" w="12.25" h="31.375" o="288.643" />
+            </object>
+            <object id="14">
+                <box xc="108.344" yc="758.063" w="27.9727" h="20.6312" />
+                <representation type="RotatedRectangle" xc="108.344" yc="758.063" w="13.625" h="25" o="197.847" />
+            </object>
+            <object id="15">
+                <box xc="39.0938" yc="487.75" w="40.7909" h="27.1732" />
+                <representation type="RotatedRectangle" xc="39.0938" yc="487.75" w="16.125" h="37.625" o="161.607" />
+            </object>
+            <object id="16">
+                <box xc="428.531" yc="500.313" w="23.8087" h="36.3739" />
+                <representation type="RotatedRectangle" xc="428.531" yc="500.313" w="13.75" h="33.75" o="288.625" />
+            </object>
+        </objectlist>
+    </frame>
+    <frame number="13" file="C:/Training/MunichAutobahn01/ON0075.png" utc="2009-Oct-24 12:56:53.809000" pixel_size="0.15" x="695009" y="5.34382e+006" lat="48.2182" lon="11.6249" sunny="1">
+        <objectlist>
+            <object id="5">
+                <box xc="177.094" yc="585.563" w="23.2534" h="33.6309" />
+                <representation type="RotatedRectangle" xc="177.094" yc="585.563" w="13.5" h="30.875" o="110.018" />
+            </object>
+            <object id="6">
+                <box xc="153" yc="659.969" w="20.6728" h="30.8351" />
+                <representation type="RotatedRectangle" xc="153" yc="659.969" w="11.5" h="28.625" o="110.19" />
+            </object>
+            <object id="7">
+                <box xc="87.5" yc="931.438" w="24.1434" h="35.189" />
+                <representation type="RotatedRectangle" xc="87.5" yc="931.438" w="12.875" h="32.75" o="111.86" />
+            </object>
+            <object id="8">
+                <box xc="215.125" yc="611.125" w="19.6957" h="28.4239" />
+                <representation type="RotatedRectangle" xc="215.125" yc="611.125" w="11.75" h="26" o="109.335" />
+            </object>
+            <object id="9">
+                <box xc="275.531" yc="301.656" w="22.6894" h="32.9667" />
+                <representation type="RotatedRectangle" xc="275.531" yc="301.656" w="13.875" h="30.125" o="108.435" />
+            </object>
+            <object id="10">
+                <box xc="240.969" yc="489.063" w="21.8516" h="31.9617" />
+                <representation type="RotatedRectangle" xc="240.969" yc="489.063" w="12.375" h="29.5" o="110.326" />
+            </object>
+            <object id="11">
+                <box xc="375.281" yc="33.375" w="21.8011" h="29.4198" />
+                <representation type="RotatedRectangle" xc="375.281" yc="33.375" w="13" h="26.5" o="111.481" />
+            </object>
+            <object id="13">
+                <box xc="545.781" yc="122.094" w="22.3553" h="33.3273" />
+                <representation type="RotatedRectangle" xc="545.781" yc="122.094" w="12.625" h="30.875" o="289.842" />
+            </object>
+            <object id="14">
+                <box xc="94.0313" yc="753.625" w="26.7044" h="20.9897" />
+                <representation type="RotatedRectangle" xc="94.0313" yc="753.625" w="14" h="23.375" o="199.467" />
+            </object>
+            <object id="15">
+                <box xc="36.8438" yc="489.25" w="40.9498" h="26.3815" />
+                <representation type="RotatedRectangle" xc="36.8438" yc="489.25" w="15.125" h="38.125" o="161.608" />
+            </object>
+            <object id="16">
+                <box xc="443.25" yc="447.625" w="22.8533" h="35.3966" />
+                <representation type="RotatedRectangle" xc="443.25" yc="447.625" w="13.375" h="32.875" o="287.945" />
+            </object>
+        </objectlist>
+    </frame>
+    <frame number="14" file="C:/Training/MunichAutobahn01/ON0076.png" utc="2009-Oct-24 12:56:54.308000" pixel_size="0.15" x="695009" y="5.34382e+006" lat="48.2184" lon="11.6251" sunny="1">
+        <objectlist>
+            <object id="4">
+                <box xc="216.75" yc="471.531" w="23.644" h="36.0016" />
+                <representation type="RotatedRectangle" xc="216.75" yc="471.531" w="12.875" h="33.625" o="110.095" />
+            </object>
+            <object id="5">
+                <box xc="167.719" yc="610.156" w="23.5691" h="35.4927" />
+                <representation type="RotatedRectangle" xc="167.719" yc="610.156" w="12.75" h="33.125" o="110.556" />
+            </object>
+            <object id="6">
+                <box xc="143.188" yc="679.375" w="22.1405" h="28.9667" />
+                <representation type="RotatedRectangle" xc="143.188" yc="679.375" w="10.875" h="27" o="117.582" />
+            </object>
+            <object id="8">
+                <box xc="193.906" yc="671.281" w="20.622" h="29.1516" />
+                <representation type="RotatedRectangle" xc="193.906" yc="671.281" w="12.5" h="26.5" o="109.481" />
+            </object>
+            <object id="9">
+                <box xc="264.094" yc="332.969" w="21.3847" h="31.3565" />
+                <representation type="RotatedRectangle" xc="264.094" yc="332.969" w="12.375" h="28.875" o="109.701" />
+            </object>
+            <object id="10">
+                <box xc="218.531" yc="551.281" w="22.8563" h="32.2682" />
+                <representation type="RotatedRectangle" xc="218.531" yc="551.281" w="12.5" h="29.75" o="112.306" />
+            </object>
+            <object id="11">
+                <box xc="359.969" yc="72.4688" w="21.3323" h="29.1929" />
+                <representation type="RotatedRectangle" xc="359.969" yc="72.4688" w="12" h="26.625" o="112.663" />
+            </object>
+            <object id="12">
+                <box xc="402.031" yc="42.25" w="19.4704" h="26.932" />
+                <representation type="RotatedRectangle" xc="402.031" yc="42.25" w="12.375" h="24.25" o="108.621" />
+            </object>
+            <object id="13">
+                <box xc="556.625" yc="85.0625" w="22.4387" h="34.0244" />
+                <representation type="RotatedRectangle" xc="556.625" yc="85.0625" w="12.625" h="31.625" o="289.458" />
+            </object>
+            <object id="14">
+                <box xc="80" yc="750.031" w="27.3455" h="21.637" />
+                <representation type="RotatedRectangle" xc="80" yc="750.031" w="14.5" h="23.875" o="199.497" />
+            </object>
+            <object id="15">
+                <box xc="35.6563" yc="491.219" w="40.6672" h="25.5545" />
+                <representation type="RotatedRectangle" xc="35.6563" yc="491.219" w="15.25" h="37.875" o="163.185" />
+            </object>
+        </objectlist>
+    </frame>
+    <frame number="15" file="C:/Training/MunichAutobahn01/ON0077.png" utc="2009-Oct-24 12:56:54.811000" pixel_size="0.15" x="695009" y="5.34382e+006" lat="48.2187" lon="11.6253" sunny="1">
+        <objectlist>
+            <object id="4">
+                <box xc="205.906" yc="503.094" w="23.5478" h="35.4271" />
+                <representation type="RotatedRectangle" xc="205.906" yc="503.094" w="12.25" h="33.25" o="111.422" />
+            </object>
+            <object id="5">
+                <box xc="160.906" yc="630.25" w="23.8508" h="35.1602" />
+                <representation type="RotatedRectangle" xc="160.906" yc="630.25" w="13.5" h="32.5" o="110.109" />
+            </object>
+            <object id="6">
+                <box xc="132.969" yc="696.375" w="25.4463" h="29.9582" />
+                <representation type="RotatedRectangle" xc="132.969" yc="696.375" w="11.375" h="28.5" o="124.263" />
+            </object>
+            <object id="8">
+                <box xc="173.563" yc="732.531" w="20.9412" h="28.4926" />
+                <representation type="RotatedRectangle" xc="173.563" yc="732.531" w="12.375" h="25.75" o="111.47" />
+            </object>
+            <object id="9">
+                <box xc="255.344" yc="364.438" w="22.3574" h="32.0245" />
+                <representation type="RotatedRectangle" xc="255.344" yc="364.438" w="12.875" h="29.375" o="110.526" />
+            </object>
+            <object id="10">
+                <box xc="197.219" yc="614.938" w="19.8371" h="29.4854" />
+                <representation type="RotatedRectangle" xc="197.219" yc="614.938" w="11.375" h="27.25" o="109.548" />
+            </object>
+            <object id="11">
+                <box xc="346.531" yc="110.406" w="21.3717" h="29.9031" />
+                <representation type="RotatedRectangle" xc="346.531" yc="110.406" w="11.75" h="27.5" o="112.479" />
+            </object>
+            <object id="12">
+                <box xc="385.125" yc="97.1875" w="18.7078" h="27.0194" />
+                <representation type="RotatedRectangle" xc="385.125" yc="97.1875" w="11.625" h="24.625" o="108.122" />
+            </object>
+            <object id="13">
+                <box xc="570.5" yc="47.4375" w="21.9935" h="33.5831" />
+                <representation type="RotatedRectangle" xc="570.5" yc="47.4375" w="12.375" h="31.25" o="289.267" />
+            </object>
+            <object id="14">
+                <box xc="67.2813" yc="747.719" w="26.6883" h="20.9702" />
+                <representation type="RotatedRectangle" xc="67.2813" yc="747.719" w="14.625" h="23.375" o="197.478" />
+            </object>
+            <object id="15">
+                <box xc="35.5625" yc="493.75" w="40.0659" h="25.5138" />
+                <representation type="RotatedRectangle" xc="35.5625" yc="493.75" w="15.875" h="37.125" o="163.962" />
+            </object>
+            <object id="16">
+                <box xc="477.313" yc="341.875" w="23.7559" h="34.9254" />
+                <representation type="RotatedRectangle" xc="477.313" yc="341.875" w="13.125" h="32.375" o="290.777" />
+            </object>
+        </objectlist>
+    </frame>
+</dataset>

@@ -1,0 +1,8 @@
+{
+    "num_threads":10,
+    "input_video":"time.avi",
+    "ground_truth_file":"./database/database1_gt500.json",
+	"output_video_name":"./database/database500.avi",
+	"num_trackers":500,
+	"duration":60
+}

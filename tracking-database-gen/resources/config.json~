@@ -1,0 +1,6 @@
+{
+    "num_threads":10,
+    "input_video":"time.avi",
+    "ground_truth":"ground_truth.json",
+	"num_trackers":1000
+}
