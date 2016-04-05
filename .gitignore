@@ -62,5 +62,9 @@ doc_gen/*/*/*
 ./release/lowserver
 *.db
 *.avi
-*.jpg
+
+to-org/database/TrainingDataSet
+to-org/database/TrainingDataSet/*
+
+
 low_server/release/lowserver
