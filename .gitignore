@@ -61,4 +61,6 @@ doc_gen/*/*/*
 
 ./release/lowserver
 *.db
+*.avi
+*.jpg
 low_server/release/lowserver
