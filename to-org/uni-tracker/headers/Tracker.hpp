@@ -15,7 +15,7 @@
 #include <opencv2/features2d/features2d.hpp>
 #include <opencv2/legacy/legacy.hpp>
 
-#include <fstream> 
+#include <fstream>
 #include <sys/time.h>
 
 #include "./Thread.hpp"
@@ -30,8 +30,8 @@ using namespace std;
 typedef struct timeval time_us;
 typedef unsigned long long int ulint;
 
-#define DIFF 1000
-#define LOCAL_HOLD 500000
+#define DIFF 10000
+#define LOCAL_HOLD 	400000
 
 class Tracklet
 {

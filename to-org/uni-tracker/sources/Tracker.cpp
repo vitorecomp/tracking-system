@@ -178,7 +178,7 @@ void Tracklet::saveGrapth(){
 	stringstream ss;
 	ss << "uotput" << num++ << ".csv";
 	fs.open (ss.str().c_str(), std::fstream::in | std::fstream::out | std::fstream::app);
-	for(uint j =0; j < 3; j++){
+	for(uint j = 1; j < 4; j++){
 		for(uint i = 0; i < tempos.size();i++){
 			if(tipos[i] == j)
 				fs << 1 << ";";
@@ -189,16 +189,40 @@ void Tracklet::saveGrapth(){
 	}
 	fs.close();
 
-
-	Mat image = Mat::zeros(400, tempos.size()*12, CV_8UC3);
-	for(uint i = 0; i < tempos.size();i++){
-		if(tipos[i] == 1)
-			line(image, Point(i*12, 400 - round(tempos[i]/10000)), Point(i*12+11, 400-round(tempos[i]/10000)), Scalar(255, 0, 0));
-		if(tipos[i] == 2)
-			line(image, Point(i*12, 400 - round(tempos[i]/10000)), Point(i*12+11, 400-round(tempos[i]/10000)), Scalar(0, 255, 0));
-		if(tipos[i] == 3)
-			line(image, Point(i*12, 400 - round(tempos[i]/10000)), Point(i*12+11, 400-round(tempos[i]/10000)), Scalar(0, 0, 255));
+	#define DIVISI 2000
+	#define JUMP 48
+	#define MAXL 500
+	Mat image = Mat::ones(MAXL, tempos.size()*JUMP, CV_8UC3);
+	for(uint i = 0; i < image.cols*image.rows*image.channels(); i++){
+			image.data[i] = 255;
 	}
-	imshow("grapf", image);
+
+	for(uint i = 1; i < tempos.size();i++){
+		Point pontos[4];
+		pontos[0] = Point(i*JUMP, (MAXL-1));
+		pontos[2] = Point(i*JUMP+(JUMP-1), MAXL-round(tempos[i]/DIVISI));
+		pontos[1] = Point(i*JUMP+(JUMP-1), (MAXL-1));
+		pontos[3] = Point(i*JUMP, MAXL - round(tempos[i-1]/DIVISI));
+
+		const Point* elementPoints[4] = { &pontos[0], &pontos[1], &pontos[2], &pontos[3] };
+		int p_size = 4;
+		fillPoly(image, elementPoints, &p_size, 1, Scalar(255, 0, 0), 8);
+		if(tipos[i] == 1){
+			fillPoly(image, elementPoints, &p_size, 1, Scalar(200, 20, 20), 8);
+			line(image, Point(i*JUMP, MAXL - round(tempos[i-1]/DIVISI)), Point(i*JUMP+(JUMP-1), MAXL-round(tempos[i]/DIVISI)), Scalar(200, 20, 20));
+		}
+		if(tipos[i] == 2){
+			fillPoly(image, elementPoints, &p_size, 1, Scalar(20, 200, 20), 8);
+			line(image, Point(i*JUMP, MAXL - round(tempos[i-1]/DIVISI)), Point(i*JUMP+(JUMP-1), MAXL-round(tempos[i]/DIVISI)), Scalar(20, 200, 20));
+		}
+		if(tipos[i] == 3){
+			fillPoly(image, elementPoints, &p_size, 1, Scalar(20, 20, 200), 8);
+			line(image, Point(i*JUMP, MAXL - round(tempos[i-1]/DIVISI)), Point(i*JUMP+(JUMP-1), MAXL-round(tempos[i]/DIVISI)), Scalar(20, 20, 200));
+		}
+	}
+
+	ss.str("");
+	ss << "uotput" << num++ << ".jpg";
+	imwrite(ss.str().c_str(), image);
 	waitKey(50);
 }

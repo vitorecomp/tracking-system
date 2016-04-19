@@ -41,7 +41,7 @@ tracks: ./bin/Tracker.o ./bin/TemplateMatchTrack.o ./bin/SiftTracker.o ./bin/Sur
 ##################################################################################
 ##Trackers
 ##################################################################################
-./bin/Tracker.o: ./sources/Tracker.cpp
+./bin/Tracker.o: ./headers/Thread.hpp ./sources/Tracker.cpp
 	$(CC) -c ./sources/Tracker.cpp $(CFLAGS) -o ./bin/Tracker.o
 
 ./bin/TemplateMatchTrack.o: ./sources/TemplateMatchTrack.cpp
