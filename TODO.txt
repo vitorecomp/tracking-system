@@ -1,0 +1,81 @@
+
+Things to do:
+	Prog preparation
+		Preparar a base de dados do mubarak
+		Preparar a base de dados do MOT
+	
+	
+	Prog
+		Arrumar o deadlock de quando finalizo as thread antes do core
+		remover todos e defines e por tudo em config
+		remover o cpu leak do output
+		Fazer o output sincrono caso desejado
+		Fazer a saida em um formato padrao
+		Fazer as configs do runner
+		Fazer o sintetizador de configs em python
+		Colocar os objetos no makefile
+	
+	Execution
+		Radar com cada um dos algoritmos separados carga fixa
+		Radar com cada um dos algoritmos separados carga variavel
+		
+		Rodar com algoritimo de decisao simples carga fixa
+		Rodar com algoritimo de decisao simples carga varialvel
+		Rodar com algoritimo de decisao dinamica e carga fixa
+		Rodar com algoritimo de decisao dinamica e carga varialvel
+		Repetir o processo com detecção de erro
+	
+	Pesquisar
+		Pesquisar sobre redes neuraus para decisao
+		PEsquisar sobre redes neurais para definicao de confianca
+
+	Escrever
+		Pegar o template com o lucas
+		Escrever sobre os melhores algoritmos de balancemento
+		Escrever sobre os algoritmos de tracking
+		Escrever sobre o problema de multitracking
+	
+
+Thing done:
+	Prog preparation
+		baixar as bases de dados
+		Preparar as base de dados do kit
+	
+	
+	Prog
+		Fazer a config ler de json
+		Fazer on input centralizado
+		Definir o padrao da saida
+		Arrumar para as thread em idle por falta de trabalho nao explodirem
+		Integrar o algoritmo de decisção simples
+		Integrar a interface do tracklets ao novo sistem
+		Fazer o makefile
+		Contador de sinais para trabalhos dinamicos
+		Fazer o runner me python
+			
+	
+	Execution
+		
+	Pesquisar
+		Balceamento workstealing
+		Pesquisar sobre balanced score card
+		Pesquisar sobre os melhores algoritmos de balancemento
+		
+
+	->Escrever
+		
+		
+		
+Organizar
+	->database Data base do sistema, principalmente do Institut für Photogrammetrie und Fernerkundung
+	->Database builder
+		-> image_video.cpp modulo que transformaçãa as imagens do dataset em video
+		-> main.cpp modulo que transformaçãa videos para alta resolução, para teste de performance singular
+	->Otimization
+		->Algoritmos de tracking otimizados, de forma sequencial
+		-> sh para execução e contrução
+
+	->tracklets
+		->algoritmo de tracking para multitargets
+		->make para contrução
+		->execução, fechada nas entidades, logo é necessario mudar no codigo e recompilar a entrada

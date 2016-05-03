@@ -46,20 +46,11 @@ Thumbs.db
 # cod  #
 ########
 
-./bin/*
-./bin/*/*
-./bin/*/*/*
 
-./doc_gen/*
-./doc_gen/*/*
-./doc_gen/*/*/*
+release
+results
+bin
 
-doc_gen/*
-doc_gen/*/*
-doc_gen/*/*/*
-
-
-./release/lowserver
 *.db
 *.avi
 
@@ -70,5 +61,3 @@ doc_gen/*/*/*
 to-org/database/TrainingDataSet
 to-org/database/TrainingDataSet/*
 
-
-low_server/release/lowserver

@@ -17,7 +17,7 @@ CFLAGS = -std=c++11 `pkg-config --cflags opencv`
 
 #######################################
 #libs
-LIBS = -pthread -fopenmp  -O4
+LIBS = -pthread -O4
 
 #######################################
 #compile project
