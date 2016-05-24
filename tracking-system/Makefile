@@ -1,106 +1,61 @@
-############################################################################################################
-#makefile
-#
-#
-#
-#
-#
-############################################################################################################
-#Static variables
-############################################################################################################
-#compiler
 CC = g++
+HEADER_PATH = source/header
+SRC_PATH = source
+BIN_PATH = bin
+REL_PATH = release
+DEP_PATH = dep
+LOG_PATH = log
+RESULT_PATH = results
 
-#######################################
-#flags
-CFLAGS = -std=c++11 `pkg-config --cflags opencv`
+RELEASE_NAME = tracking-system
 
-#######################################
-#libs
-LIBS = -pthread -O4
+_OBJ = main.o
 
-#######################################
-#compile project
-#######################################
-all: bin/main.o
-	rm -f log.txt
-	$(CC) ./bin/*.o $(CFLAGS) -o ./release/tracking_system $(LIBS) `pkg-config --libs opencv`
+_OBJ += ./libs/jsonParser/jsoncpp.o
+_OBJ += ./libs/output_s/IOMananger.o
+_OBJ += ./libs/output_s/IOMananger_Local.o
+_OBJ += ./libs/output_s/BaseTypes.o
+_OBJ += ./libs/output_s/Entities.o
 
-#######################################
-#compile project
-#######################################
+_OBJ += ./src/ManangerCore.cpp
+_OBJ += ./src/queue/queue.cpp
+
+
+_OBJ += ./libs/output_s/Entities.o
+
+OBJ = $(patsubst %,$(BIN_PATH)/%,$(_OBJ))
+
+DIRECTIVES = -std=c++0x -w -c -I $(HEADER_PATH)
+DEPFLAGS = -MT $@ -MMD -MP -MF $(DEP_PATH)/$*.Td
+OPENCV = `pkg-config --libs opencv` -O4
+LIBS = $(OPENCV)
+
+
+FINAL_EXEC = $(REL_PATH)/$(RELEASE_NAME)
+all: $(FINAL_EXEC)
+$(FINAL_EXEC): $(OBJ)
+	@mkdir -p $(RESULT_PATH)
+	$(CC) -o $@ $^ $(LIBS)
+
+$(BIN_PATH)/%.o: $(SRC_PATH)/%.cpp
+	@mkdir -p $(BIN_PATH)/$(dir $*)
+	@mkdir -p $(DEP_PATH)/$(dir $*)
+	@mkdir -p $(BIN_PATH) $(DEP_PATH)
+	$(CC) $(DEPFLAGS) -c -o $@ $< $(DIRECTIVES)
+	@mv -f $(DEP_PATH)/$*.Td $(DEP_PATH)/$*.d
+
+debug: DIRECTIVES += -ggdb
+debug: all
+
+.PHONY: clean
 clean:
-	rm -r -f ./bin/
-	mkdir bin
-	rm -r -f ./release/
-	mkdir release
+	-@rm -r $(BIN_PATH)
+	-@rm -r $(DEP_PATH)
+	-@rm -r $(REL_PATH)
+	-@rm -r $(LOG_PATH)
 
-############################################################################################################
-#Main
-############################################################################################################
-bin/main.o: ./source/main.cpp mananger_core liberies
-	$(CC) -c ./source/main.cpp $(CFLAGS) -o ./bin/main.o $(LIBS)
+$(DEP_PATH)/%.d: ;
+.PRECIOUS: $(DEP_PATH)/%.d
 
-mananger_core: mananger tracklet
+-include $(patsubst %,$(DEP_PATH)/%.d,$(basename $(_OBJ)))
 
-
-############################################################################################################
-#ManangerCore
-############################################################################################################
-mananger: bin/ManangerCore.o
-
-bin/ManangerCore.o: ./source/src/ManangerCore.cpp ./source/header/ManangerCore.hpp
-	$(CC) -c ./source/src/ManangerCore.cpp $(CFLAGS) -o ./bin/ManangerCore.o $(LIBS)
-
-############################################################################################################
-#Tracklet
-############################################################################################################
-tracklet: bin/Tracklet.o bin/Queue.o
-
-bin/Tracklet.o: ./source/src/Tracklet.cpp ./source/header/Tracklet.hpp
-	$(CC) -c ./source/src/Tracklet.cpp $(CFLAGS) -o ./bin/Tracklet.o $(LIBS)
-
-bin/Queue.o: ./source/src/queue/queue.cpp ./source/header/queue/queue.hpp
-	$(CC) -c ./source/src/queue/queue.cpp $(CFLAGS) -o ./bin/Queue.o $(LIBS)
-
-############################################################################################################
-#Liberys
-############################################################################################################
-############################################################################################################
-#Libs compilations
-############################################################################################################
-liberies: ./bin/json.o output
-./bin/json.o: ./source/libs/jsonParser/json.h ./source/libs/jsonParser/jsoncpp.cpp
-	$(CC) -c ./source/libs/jsonParser/jsoncpp.cpp $(CFLAGS) -o ./bin/json.o
-
-############################################################################################################
-#output - compilation
-############################################################################################################
-output: bin/IOMananger.o bin/IOManangerL.o bin/IOBasetypes.o bin/IOEntities.o
-
-bin/IOMananger.o: ./source/libs/output_s/IOMananger.cpp ./source/libs/output/IOMananger.hpp
-	$(CC) -c ./source/libs/output_s/IOMananger.cpp $(CFLAGS) -o ./bin/IOMananger.o
-
-bin/IOManangerL.o: ./source/libs/output_s/IOMananger_Local.cpp ./source/libs/output/IOMananger.hpp
-	$(CC) -c ./source/libs/output_s/IOMananger_Local.cpp $(CFLAGS) -o ./bin/IOManangerL.o
-
-bin/IOBasetypes.o: ./source/libs/output_s/BaseTypes.cpp ./source/libs/output//BaseTypes.hpp
-	$(CC) -c ./source/libs/output_s/BaseTypes.cpp $(CFLAGS) -o ./bin/IOBasetypes.o
-
-bin/IOEntities.o: ./source/libs/output_s/Entities.cpp ./source/libs/output/Entities.hpp
-	$(CC) -c ./source/libs/output_s/Entities.cpp $(CFLAGS) -o ./bin/IOEntities.o
-
-##############################################################
-#Testes de execução autmatica
-##############################################################
-#test libs
-LIB_TEST = -lcppunit
-
-database_gen: ./bin/main_gen.o ./bin/tracker.o liberies
-	$(CC) ./bin/*.o $(CFLAGS) -o ./release/database_gen $(LIBS)
-
-./bin/main_gen.o: ./database_gen/main.cpp
-	$(CC) -c ./database_gen/main.cpp  $(CFLAGS) -o ./bin/main_gen.o
-
-./bin/tracker.o: ./database_gen/Tracker.cpp ./database_gen/Tracker.hpp
-	$(CC) -c ./database_gen/Tracker.cpp $(CFLAGS) -o ./bin/tracker.o
