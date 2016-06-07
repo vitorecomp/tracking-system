@@ -1,0 +1,79 @@
+{
+   "./results/2_10_10matrix.txt" : {
+      "error" : 73003.515625,
+      "error_n" : 44968,
+      "file" : "./resource/train-images-idx3-ubyte",
+      "momen" : 0.002,
+      "rate" : 0.050000000000000003
+   },
+   "./results/2_11_10matrix.txt" : {
+      "error" : 24795.76953125,
+      "error_n" : 9204,
+      "file" : "./resource/train-images-idx3-ubyte",
+      "momen" : 0.002,
+      "rate" : 0.050000000000000003
+   },
+   "./results/2_12_10matrix.txt" : {
+      "error" : 68045.7109375,
+      "error_n" : 43116,
+      "file" : "./resource/train-images-idx3-ubyte",
+      "momen" : 0.002,
+      "rate" : 0.050000000000000003
+   },
+   "./results/2_13_10matrix.txt" : {
+      "error" : 42488.5546875,
+      "error_n" : 24958,
+      "file" : "./resource/train-images-idx3-ubyte",
+      "momen" : 0.002,
+      "rate" : 0.050000000000000003
+   },
+   "./results/2_14_10matrix.txt" : {
+      "error" : 25939.57421875,
+      "error_n" : 9680,
+      "file" : "./resource/train-images-idx3-ubyte",
+      "momen" : 0.002,
+      "rate" : 0.050000000000000003
+   },
+   "./results/2_15_10matrix.txt" : {
+      "error" : 33057.015625,
+      "error_n" : 12777,
+      "file" : "./resource/train-images-idx3-ubyte",
+      "momen" : 0.002,
+      "rate" : 0.050000000000000003
+   },
+   "./results/2_16_10matrix.txt" : {
+      "error" : 78947.03125,
+      "error_n" : 48901,
+      "file" : "./resource/train-images-idx3-ubyte",
+      "momen" : 0.002,
+      "rate" : 0.050000000000000003
+   },
+   "./results/2_17_10matrix.txt" : {
+      "error" : 39603.7421875,
+      "error_n" : 19309,
+      "file" : "./resource/train-images-idx3-ubyte",
+      "momen" : 0.002,
+      "rate" : 0.050000000000000003
+   },
+   "./results/2_18_10matrix.txt" : {
+      "error" : 51766.66015625,
+      "error_n" : 26743,
+      "file" : "./resource/train-images-idx3-ubyte",
+      "momen" : 0.002,
+      "rate" : 0.050000000000000003
+   },
+   "./results/2_19_10matrix.txt" : {
+      "error" : 21963.83203125,
+      "error_n" : 8032,
+      "file" : "./resource/train-images-idx3-ubyte",
+      "momen" : 0.002,
+      "rate" : 0.050000000000000003
+  },
+  "./results/2_20_10matrix.txt" : {
+	 "error" : 31187.140625,
+	 "error_n" : 11585,
+	 "file" : "./resource/train-images-idx3-ubyte",
+	 "momen" : 0.002,
+	 "rate" : 0.050000000000000003
+  }
+}

@@ -13,23 +13,16 @@ _OBJ += ./libs/output_s/IOMananger_Local.o
 _OBJ += ./libs/output_s/BaseTypes.o
 _OBJ += ./libs/output_s/Entities.o
 
-_OBJ += ./src/io_man/nn_input.o
-_OBJ += ./src/io_man/nn_output.o
-_OBJ += ./src/neural_net/neural_net.o
-_OBJ += ./src/neural_net/neural_save.o
-_OBJ += ./src/neural_net/neural_converter.o
-
-_OBJ += ./libs/output_s/Entities.o
 
 OBJ = $(patsubst %,$(BIN_PATH)/%,$(_OBJ))
 
-DIRECTIVES = -std=c++0x -w -c -I $(HEADER_PATH)
+DIRECTIVES = -std=c++0x -w -c -I $(HEADER_PATH)  `pkg-config --cflags opencv` -O4
 DEPFLAGS = -MT $@ -MMD -MP -MF $(DEP_PATH)/$*.Td
 OPENCV = `pkg-config --libs opencv` -O4
-LIBS =
+LIBS = $(OPENCV)
 
 
-FINAL_EXEC = $(REL_PATH)/neural_net
+FINAL_EXEC = $(REL_PATH)/database_gen
 all: $(FINAL_EXEC)
 $(FINAL_EXEC): $(OBJ)
 	$(CC) -o $@ $^ $(LIBS)

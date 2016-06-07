@@ -1,0 +1,18 @@
+{
+   "./results/2_19_10matrix.txt" : {
+      "error" : 0,
+      "error_n" : 0,
+      "file" : "./resource/t10k-images-idx3-ubyte",
+      "final_error" : 4147.9150390625,
+      "final_error_n" : 1598,
+      "momen" : 0.002,
+      "rate" : 0.050000000000000003
+   },
+   "./results/2_20_10matrix.txt" : {
+      "error" : 88526.984375,
+      "error_n" : 52737,
+      "file" : "./resource/train-images-idx3-ubyte",
+      "momen" : 0.002,
+      "rate" : 0.050000000000000003
+   }
+}

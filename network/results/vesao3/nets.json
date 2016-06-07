@@ -1,0 +1,30 @@
+{
+   "./results/3_17_10_10matrix.txt" : {
+      "error" : 38803.61328125,
+      "error_n" : 19518,
+      "file" : "./resource/train-images-idx3-ubyte",
+      "momen" : 0.002,
+      "rate" : 0.050000000000000003
+   },
+   "./results/3_17_8_10matrix.txt" : {
+      "error" : 27670.435546875,
+      "error_n" : 11524,
+      "file" : "./resource/train-images-idx3-ubyte",
+      "momen" : 0.002,
+      "rate" : 0.050000000000000003
+   },
+   "./results/3_17_9_10matrix.txt" : {
+      "error" : 57197.16796875,
+      "error_n" : 38881,
+      "file" : "./resource/train-images-idx3-ubyte",
+      "momen" : 0.002,
+      "rate" : 0.050000000000000003
+   },
+   "./results/3_18_8_10matrix.txt" : {
+      "error" : 67022.1328125,
+      "error_n" : 46512,
+      "file" : "./resource/train-images-idx3-ubyte",
+      "momen" : 0.002,
+      "rate" : 0.050000000000000003
+   }
+}

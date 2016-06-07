@@ -1,0 +1,9 @@
+{
+   "./results/2_19_10matrix.txt" : {
+      "error" : 118618.90625,
+      "error_n" : 58897,
+      "file" : "./resource/train-images-idx3-ubyte",
+      "momen" : 0.050000000000000003,
+      "rate" : 0.10000000000000001
+   }
+}
